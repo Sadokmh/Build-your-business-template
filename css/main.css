@@ -107,3 +107,44 @@ body {
 .section-1 {
   margin-bottom: 8%;
 }
+
+/* Section 2 styling */
+
+.section-2 .container-fluid {
+  background-image: url("../img/idea.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  width: 80%;
+  color: orangered;
+}
+
+.section-2 .paragraph {
+  width: 20rem;
+  color: orangered;
+  margin-bottom: 7%;
+}
+
+.section-2 .btn {
+  margin-bottom: 15%;
+  width: 30%;
+  padding: 2% 5%;
+}
+
+/* Section 3 styling */
+
+.section-3 {
+  margin-top: 6%;
+}
+
+.section-3 i {
+  color: #00e8e8;
+}
+
+.section-3 p {
+  color: rgba(0, 0, 0, 0.59);
+}
