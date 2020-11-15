@@ -36,3 +36,40 @@ body {
 .menu-right-btn:hover {
   background-color: #eee5e6;
 }
+
+.site-content {
+  background-image: url("../img/company.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: white;
+  text-align: center;
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 70px;
+}
+
+.site-desc {
+  font-size: 25px;
+}
+
+.site-btn1 {
+  background-color: black;
+  color: white;
+}
+
+.site-btn2 {
+  background-color: white;
+}
+
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
