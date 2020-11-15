@@ -148,3 +148,109 @@ body {
 .section-3 p {
   color: rgba(0, 0, 0, 0.59);
 }
+
+/* Section 4 styling */
+
+.section-4 {
+  margin-top: 8%;
+}
+
+.section-4 .col-md-7 img {
+  width: 100%;
+}
+
+.section-4 .row div {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.section-4 a {
+  font-size: 40px;
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+.section-4 .paragraph-1 {
+  color: white;
+  margin-top: 7%;
+  font-size: 23px;
+}
+
+/* section-5 styling */
+
+.section-5 h4 {
+  margin-top: 5%;
+}
+
+.section-5 .social {
+  margin-top: 5%;
+}
+
+.section-5 h5 {
+  color: lightseagreen;
+}
+
+.social i {
+  color: #ef5651;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-1 .card {
+    width: 14rem;
+  }
+
+  .section-4 img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+
+  .section-1 .card-container {
+    padding: 5% !important;
+    margin-left: 25% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .site-content .site-title {
+    font-size: 30px;
+    padding-left: 15%;
+  }
+
+  .section-1 .card-container {
+    padding: 5% !important;
+    margin-left: 8% !important;
+  }
+
+  .site-content .site-btn2 {
+    display: none;
+  }
+
+  .site-content .site-btn1 {
+    margin-left: 15%;
+  }
+
+  .section-1 heading-1,
+  .section-1 .heading-2 {
+    font-size: 25px;
+  }
+
+  .section-1 .card {
+    width: 15rem;
+  }
+
+  .section-4 img {
+    width: 20rem;
+  }
+
+  footer input[type="button"] {
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .section-1 .card-container {
+    padding: 5% !important;
+    margin-left: 15% !important;
+  }
+}
